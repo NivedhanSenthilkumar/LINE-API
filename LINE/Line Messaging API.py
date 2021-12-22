@@ -79,12 +79,6 @@ print(summary.picture_url)
 
 
 
-
-
-
-
-
-
 ## MESSAGE DELIVERY COUNT
 insight = line_bot_api.get_insight_message_delivery('20191231')
 print(insight.api_broadcast)
